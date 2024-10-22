@@ -56,7 +56,7 @@ export default function Calculator() {
         <Label htmlFor="calculator-type">Calculator Type</Label>
         <Select defaultValue="all-steps">
           <SelectTrigger id="calculator-type">
-            <SelectValue placeholder="Select calculator type" />
+            <SelectValue placeholder="Select a calculator" />
           </SelectTrigger>
           <SelectContent>
             <SelectItem value="all-steps">All Steps</SelectItem>
