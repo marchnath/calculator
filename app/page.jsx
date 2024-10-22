@@ -83,7 +83,7 @@ export default function Calculator() {
             type="number"
             value={steps}
             onChange={(e) => setSteps(e.target.value)}
-            placeholder="e.g., 8"
+            placeholder="e.g., 7"
           />
         </div>
 
